@@ -4,7 +4,6 @@ from webdriver_manager.microsoft import EdgeChromiumDriverManager
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
 import pandas as pd
-import time
 
 servico = Service(EdgeChromiumDriverManager().install())
 navegador = webdriver.Edge(service=servico)
